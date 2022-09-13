@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sal.css">
+    <script type="text/javascript" src="sal.js"></script>
+    <script src="script.js"></script>
+
+
+
+    <title>Mockup Design</title>
+</head>
+<body>
+    
+    <div class="wrapper" ">
+
+        
+
+        <!-- header -->
+
+        <header>
+            <a href="#" class="logo">Nuansa</a>
+            <div class="toggle" onclick="toggleClassName();"></div>
+        </header>
+
+        <!-- sidebar -->
+
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#home" onclick="toggleClassName();">Home</a>
+                </li>
+
+                <li>
+                    <a onclick="toggleDown();">Paket Wisata ▼</a>
+                </li>
+                
+                <div id="downElement" style="display: none ">
+                
+                    <div style="margin-left: 20px;
+                                                            font-size: 25px;
+                                                            padding-top: 5px;">
+                
+                
+                        <li>
+                            <a href="#book" onclick="toggleClassName()">Haji & Umroh</a>
+                        </li>
+                
+                        <li>
+                            <a>Wisata Domestik</a>
+                        </li>
+                
+                        <li>
+                            <a>Wisata Internasional</a>
+                        </li>
+                        <li>
+                            <a href="#syaratketentuan" onclick="toggleClassName()">Syarat dan Ketentuan</a>
+                        </li>
+                
+                    </div>
+                
+                </div>
+                    
+                    <li>
+                    <a onclick="toggleDown2();">Informasi Umum ▼</a>
+                    </li>
+
+                            <div id="downElement2" style="display: none ">
+
+                                <div style="margin-left: 20px;
+                                            font-size: 25px;
+                                            padding-top: 5px;">
+
+                                
+                                <li>
+                                    <a href="#about" onclick="toggleClassName()">Tentang Kami</a>
+                                </li>
+
+                                
+                            
+                                <li>
+                                <a href="#gallery" onclick="toggleClassName()">Gallery Foto</a>
+                                </li>
+                                <li>
+                                <a href="#contact" onclick="toggleClassName();">Kontak</a>
+                                </li>
+
+                                </div>
+
+                            </div>
+                 <li>
+                    <a href="#services" onclick="toggleClassName();">Produk dan Jasa</a>
+                </li>
+                <li>
+                     <a href="#client" onclick="toggleClassName();">Klien Kami</a>
+                </li>
+                
+                
+              
+                
+            </ul>
+        </div>
+
+        <!-- banner -->
+
+        <div class="banner" id="home">
+            <img src="image/BannerSenamPagi.jpeg">
+            <div class="content" data-sal="slide-left" data-sal-duration="500">
+                <h2>Selamat Datang <br>
+                di Nuansa Wisata Tour and Travel
+</h2>
+                
+                <p>Kami melayani anda dalam ibadah Haji dan Umrah, Ticketing, Transport, Paket Wisata Dalam & Luar Negeri, MICE, EO,
+                Outbond, Training serta pengurusan dokumen (Visa, Paspor, Asuransi, dll)
+                <br><br>
+                Nuansa Wisata adalah solusi terbaik untuk pelayanan wisata anda.
+            
+            </p>
+
+            </div>
+        </div>
+
+          <!-- about us -->
+
+            <section class="about" id="about"> 
+                <div class="contentBx" data-sal="slide-right" data-sal-duration="500">
+                    <h2 class="heading">Tentang Kami</h2>
+                    <p class="text">
+                        <br>
+                        
+                        PT. Nuansa Magna Wisata merupakan salah satu perusahaan Jasa Layanan Wisata dan Transportasi yang telah berpengalaman
+                        sejak tahun 2002, berdasarkan akte Notaris Ismiati, SH No.34/04-6-2009 sebagai pengganti dari notaris Ingrid Lannywaty,
+                        SH.
+                            <br><br>
+                        Dalam memenuhi kebutuhan jasa penyelenggara wisata dan memiliki tujuan membangun usaha dibidang pelayanan jasa wisata,
+                        kami siap menjadi mitra kerja dari berbagai instansi baik pemerintah maupun swasta, organisasi, lembaga pendidikan atau
+                        sekolah, dll.<br><br>
+                        Secara terus menerus, kami berusaha meningkatkan kualitas pelayanan jasa wisata kepada mitra kerja dan selalu konsisten
+                        berada di jalur yang tepat, kami akan selalu berusaha memberikan yang terbaik kepada mitra kami, karena itu adalah modal
+                        untuk terus maju dalam bidang jasa pariwisata guna kemajuan perusahaan kami di masa datang.
+
+                        </p>
+
+
+                        <br><br><br>
+                <h2 class="heading">Visi</h2>
+
+                <p class="text">
+                    <br>
+                
+                    Menjadi mitra yang handal dan terpercaya dalam pelayanan dan berpengalaman dibidangnya, terutama dalam melaksanakan
+                    ibadah umroh, haji maupun wisata domestik atau international secara aman, nyaman dan profesional, dengan memberikan
+                    pelayanan yang terbaik kepada jama’ah/customer.
+                
+                </p>
+
+                <br><br><br>
+
+                <h2 class="heading">Misi</h2>
+                
+                <p class="text">
+                    <br>
+                
+                Memberikan manfaat kepada jama'ah/customer dalam menyediakan paket umroh, haji dan paket wisata serta jasa layanan
+                lainnya dengan kemudahan biaya, waktu dan kenyamaan serta profesional dalam jasa keberangkatan serta kepulangan ibadah
+                umroh, haji maupun paket wisata serta jasa lainnya.
+                </p>
+
+
+                </div>
+
+                <div class="imgBx" data-sal="slide-left" data-sal-duration="500"></div>
+
+            </section> 
+
+
+ <!-- Service -->
+        
+        <section class="services" id="services">
+            <h2 class="heading" data-sal="slide-right" data-sal-duration="500">Produk dan Jasa Kami</h2>
+           
+            
+            <div class="container">
+
+            
+                <div class="serviceBx" data-sal="slide-up" data-sal-duration="500">
+                    <div>
+                        
+                             <img src="image/plane logo.png">
+                             <h2>Paket Wisata Domestik & Internasional</h2>
+                      
+                        
+                    </div>
+                </div>
+
+                <div class="serviceBx" data-sal="slide-left" data-sal-duration="500">
+                    <div>
+                        
+                             <img src="image/EO.png">
+                             <h2>Event Organizer</h2>
+                      
+                        
+                    </div>
+                </div>
+
+               
+
+                <div class="serviceBx" data-sal="slide-left" data-sal-duration="500">
+                    <div>
+                
+                        <img src="image/ticket.png">
+                        <h2>Reservasi Tiket Pesawat Domestik & Internasional</h2>
+                
+                
+                    </div>
+                </div>
+                
+
+                <div class="serviceBx" data-sal="slide-left" data-sal-duration="500">
+                    <div>
+                
+                        <img src="image/hotel.png">
+                        <h2>Reservasi Hotel Domestik & Internasional</h2>
+                
+                
+                    </div>
+                </div>
+
+                <div class="serviceBx" data-sal="slide-left" data-sal-duration="500">
+                    <div>
+                
+                        <img src="image/outbond.png">
+                        <h2>Outbound dan Adventure</h2>
+                
+                
+                    </div>
+                </div>
+
+                <div class="serviceBx" data-sal="slide-left" data-sal-duration="500">
+                    <div>
+                
+                        <img src="image/bus.png">
+                        <h2>Jasa Transportasi</h2>
+                
+                
+                    </div>
+                </div>
+
+
+            </div>
+             </section>
+<!--paket -->
+
+            <div class="package" id="home">
+                <img src="image/Praktek 3.JPG">
+                <div class="content" data-sal="slide-left" data-sal-duration="500">
+                    <h2>Paket Wisata</h2>
+            
+                    <p>Kami siap melayani permintaan program wisata (umroh, domestik dan international) yang sesuai dengan permintaan dan
+                    keinginan pelanggan/customer kami, jika paket wisata yang kami tawarkan ini belum sesuai dengan keinginan dan permintaan
+                    pelanggan.</p>
+
+                    <div class="btnContainer">
+                        <a href="">Cek Paket Wisata</a>
+                    </div>
+
+                    
+            
+                </div>
+            </div>
+
+
+        <section class="package2" id="book">
+        
+            <div class="video">
+                <video src="image/hajj video.mp4" loop muted autoplay></video>
+            </div>
+        
+            <div class="handler" style="display: inline-block" data-sal="slide-right" data-sal-duration="500">
+                <h1>Tunaikan Umroh yang Aman, Nyaman dan Barokah Bersama Kami</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod necessitatibus sunt atque consequuntur quam
+                    veniam magnam consectetur, odio velit alias!</p>
+
+                    
+
+                <div class="btnContainer2" style="display: inline-block">
+                    <a href="">Cek Paket</a>
+                </div>
+            
+             
+                </div>
+              
+            </div>
+        
+           
+        
+        
+        
+        
+        
+        
+                </form>
+            </div>
+        
+        </section>
+        <section class="testimonials" id="syaratketentuan">
+            <h2 class="heading">Syarat dan Ketentuan</h2>
+            <div class="container">
+                <div class="contentBx" data-sal="slide-right" data-sal-duration="500">
+                    <div>
+                        <h3>Persyaratan Pendaftaran Umroh</h3>
+        
+                        <br>
+                        <p>
+                            1. Membayar uang muka pendaftaran Rp.10.000.000,- Pelunasan 1 bulan sebelum keberangkatan
+                            <br>2. Nama paspor terdiri dari 3 suku kata
+                        <br> 3. Surat nikah asli dan Kartu Keluarga asli (untuk peserta suami/istri)
+                            <br>4. Fotocopy KTP & KK (untuk peserta diatas 45Th)
+                        <br> 5. Pas Foto terbaru
+                        <br>  • Berwarna
+                        <br>  • Latar belakang foto berwarna putih
+                        <br>  • Tidak memakai kaca mata hitam
+                        <br>  • Wanita harus memakai hijab
+                        <br>  • Ukuran foto 4x6 (6 lembar)
+                        <br>  • kan tis)
+                        <br>  6. Menyerahkan kartu kuning (suntik Meningitis)
+                        <br>  7. Vaksin Covid19 (1,2 dan Booster)
+                        <br>  8. Akta Lahir (Anak dibawah 17 Th)
+ta
+        
+                        </p><br>
+        
+                    </div>
+        
+                </div>
+                <div class="contentBx" data-sal="slide-left" data-sal-duration="500">
+                    <div>
+                        <h3>Harga Termasuk</h3>
+        
+                        <br>
+        
+                        <p>
+                            1. Tiket Pesawat Ekonomi (PP)
+                           <br> 2. Akomodasi Hotel
+                    <br>      3. Makan 3x sehari
+<br>                            4. Pengurusan dokumen Visa
+    <br>                        5. Transportasi lokal selama di Saudi
+        <br>                    6. Ziarah dan City Tour sesuai program
+            <br>                7. Muthawif/Muthawifah/Tour Leader
+                <br>            8. Asuransi Perjalanan
+                    <br>        9. Airport Tax & Handling Jakarta & Saudi
+                        <br>    10. Zamzam 5 liter (jika diizinkan)
+                            <br>11. Perlengkapan Umroh
+                        <br> 12. Bagasi 25 Kg
+
+        
+                        </p><br>
+        
+                    </div>
+                </div>
+
+<div class="contentBx" data-sal="slide-left" data-sal-duration="500">
+    <div>
+        <h3>Harga Tidak Termasuk</h3>
+
+        <br>
+
+        <p>
+           <br> 1. Biaya kelebihan bagasi
+            2. Tour & Transportasi diluar program<br>
+            3. Biaya pengeluaran pribadi<br>
+            4. Biaya tambah nama paspor<br>
+            5. Biaya pengurusan surat muhrim<br>
+            6. Biaya suntik Meningitis<br>
+            7. Biaya tiket dan hotel domestik (jika jama'ah, dari luar kota)
+        <br> 8. Biaya pengiriman perlengkapan
+        <br> 9. Biaya PCR (jika ada)
+
+
+
+        </p><br>
+
+    </div>
+</div>
+
+<div class="contentBx" data-sal="slide-left" data-sal-duration="500">
+    <div>
+        <h3>Ketentuan Lainnya</h3>
+
+        <br>
+
+        <p>
+        Pembatalan dan perpindahan tanggal keberangkatan Umroh, dikenakan biaya :
+        <br>• 25% dari harga paket, 30 hari sebelum tanggal keberangkatan
+        <br> • 50% dari harga paket, 14 hari sebelum tanggal keberangkatan
+        <br>• 85% dari harga paket, 7 hari sebelum tanggal keberangkatan
+
+
+
+
+        </p><br>
+
+    </div>
+</div>
+
+<div class="contentBx" data-sal="slide-left" data-sal-duration="500">
+    <div>
+        <h3>Persyaratan Khusus</h3>
+
+        <br>
+
+        <p>
+        <br> 1. Bagi pendaftar yang berusia diatas 60 Th, harus ada pendampingnya (salah seorang keluarga, berbadan sehat)
+        <br>2. Diharuskan menggunakan jasa guide khusus
+        <br>3. Untuk kenyamanan di hotel selama menjalankan ibadah Umroh, disarankan memilih paket sekamar berdua (double room)
+
+
+
+
+        </p><br>
+
+    </div>
+</div>
+            </div>
+        </section>
+
+        
+
+        <!-- client -->
+
+        <section class="client" id="client">
+            <h2 class="heading" data-sal="slide-right" data-sal-duration="500">Klien Kami</h2>
+            <p class="text" data-sal="slide-left" data-sal-duration="500">
+                Kami sangat senang bekerja dengan Klien-Klien kami, beberapa klien yang mempercayakan kami adalah:
+        
+            </p>
+
+           
+
+
+            <div class="imgBx">
+                <img src="image/Bank_Mandiri_logo_2016.svg.png"  data-sal="slide-up" data-sal-duration="500">
+                
+                <img src="image/Logo Bank OCBC NISP.png" data-sal="slide-up" data-sal-duration="500">
+                <img src="image/Logo_Taman_Impian_Jaya_Ancol_(2022).svg.png" data-sal="slide-up" data-sal-duration="500">
+                <img src="image/universitas-indonesia-logo-AFB1CA1740-seeklogo.com.png" data-sal="slide-up" data-sal-duration="500">
+                <img src="image/mitra_3.png" data-sal="slide-up" data-sal-duration="500">
+                <img src="image/download (1).png" data-sal="slide-up" data-sal-duration="500">
+               
+
+            </div>
+        </section>
+       
+        <section class="testimonials" id="testimonials">
+            <h2 class="heading">Beberapa Klien kami lagi</h2>
+            <div class="container">
+                <div class="contentBx" data-sal="slide-right" data-sal-duration="500">
+                    <div>
+                         <h3>Bidang Pendidikan/Sekolah</h3>
+
+                        <br>
+                        <p>
+                            
+                            • SD Anyelir 1, Depok
+                            • SD Santo Andreas, Jakarta
+                            • SD Tugu Ibu, Depok
+                            • SDN Cilandak Timur 01 Pagi & 02 Petang, Jakarta
+                            • SDN Depok Jaya 01, 02 dan 07
+                            • SDN Srengseng Sawah 017 Pagi
+                            • SMPN 1, Depok
+                            • SMPN 98, Jakarta
+                            • SMP Kasih, Depok
+                            • SMP Santo Andreas, Jakarta
+                            • SMP Siloam, Jakarta
+                            • Brighton Junior High School, Bekasi
+                            • SMAN 1, Depok
+                            • SMAN 6, Depok
+                            • SMAN 28, Jakarta
+                            • SMA Bakti Mulya 400, Jakarta
+                            • SMA Providentia, Jakarta
+                            • SMA Santo Andreas, Jakarta
+                            • SMKN 28, Jakarta
+                            • SMKN 45, Jakarta
+                            • Universitas Indonesia (UI)
+                            • Universitas Negeri Jakarta (UNJ)
+                            • Universitas Binus, Jakarta
+                            • Universitas Pancasila, Jakarta
+                            • Universitas Trisakti, Jakarta
+                            • Universitas Lambung Makurat
+                            • Universitas Brawijaya, Malang
+                            • Politeknik Negeri Jakarta
+
+                        </p><br>
+                       
+                    </div>
+        
+                </div>
+                <div class="contentBx" data-sal="slide-left" data-sal-duration="500">
+                    <div>
+                        <h3>Instansi Pemerintah & Swasta</h3>
+
+                        <br>
+
+                        <p>
+                            • About Depok
+                            • Asuransi Bumida Syariah
+                            • Bank Mandiri
+                            • Bank OCBC NISP, Jakarta Pusat
+                            • CV. Ganesha Aksara Utama
+                            • Diklat PLN Jakarta
+                            • Diknas Provinsi DKI Jakarta
+                            • Direktorat Bea dan Cukai
+                            • D’Kandang Amazing Farm
+                            • Kementrian Desa dan Pembangunan Daerah Tertinggal & Transmigrasi (Kemendes)
+                            • Kementrian Pariwisata
+                            • KPP Pratama Tangerang Barat
+                            • Majelis Ta’lim Al-Hidayah
+                            • Siberasi 2017
+                            • Perkumpulan Gereja Depok
+                            • PT. Cakrawala Hadi Dinamika
+                            • PT. Data Internusa Jakarta
+                            • PT. Jamsostek Jakarta
+                            • PT. Jaya Ancol Jakarta
+                            • PT. Kliring Indonesia Berjangka
+                            • PT. Mafalva Promosindo Dinamika
+                            • PT. Patuna Mekar Jaya
+                            • PT. Perdana Eka Sapta
+                            • PT. Pos Indonesia
+                            • PT. Sigma Cipta Utama
+                            • PT. Wilmar Group
+                            • PT. Permata Tour & Travel
+
+                        </p><br>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!-- Team -->
+    
+        <section id="gallery" class="gallery">
+        
+            <h1 class="heading">Gallery</h1>
+        
+            <div class="box-container">
+        
+                <div class="box" data-sal="slide-right" data-sal-duration="500">
+                    <img src="image/loremphoto.webp" alt="">
+                    <div class="icons">
+                        
+                    </div>
+                </div>
+        
+                <div class="box" data-sal="slide-right" data-sal-duration="500">
+                    <img src="image/loremphoto.webp" alt="">
+                    <div class="icons">
+                        
+                    </div>
+                </div>
+        
+                <div class="box" data-sal="slide-right" data-sal-duration="500">
+                    <img src="image/loremphoto.webp" alt="">
+                    <div class="icons">
+                        
+                    </div>
+                </div>
+        
+                <div class="box" data-sal="slide-right" data-sal-duration="500">
+                    <img src="image/loremphoto.webp" alt="">
+                    <div class="icons">
+                        
+                    </div>
+                </div>
+        
+                <div class="box" data-sal="slide-right" data-sal-duration="500">
+                    <img src="image/loremphoto.webp" alt="">
+                    <div class="icons">
+                        
+                    </div>
+                </div>
+        
+                <div class="box" data-sal="slide-right" data-sal-duration="500">
+                    <img src="image/loremphoto.webp" alt="">
+                    <div class="icons">
+                       
+                    </div>
+                </div>
+        
+            </div>
+        
+        </section>
+       
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <h1 class="heading">Kontak Kami</h1>
+            
+            
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3061949292533!2d106.83673115045215!3d-6.354394195379103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edc8d2f8e227%3A0x16a53b62a37ce279!2sNuansa%20Wisata%20Tour%20%26%20Transport!5e0!3m2!1sen!2sus!4v1662535813863!5m2!1sen!2sus" width="100%"
+                height="500" frameborder="0" style="border:0; outline:none;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            
+            <div class="row">
+            
+                <div class="contact-info">
+            
+                    <div class="holder">
+                        <h3> <i class="fas fa-home"></i> address </h3>
+                        <p>Jalan Raya Lenteng Agung No.24, Jakarta Selatan, DKI Jakarta </p>
+                           
+                    </div>
+                    
+            
+                    <div class="holder">
+                        <h3> <i class="fas fa-envelope"></i> e-mail </h3>
+                        <p>nuansamagnawisata<br>@gmail.com</p>
+                    </div>
+            
+                    <div class="holder">
+                        <h3> <i class="fas fa-phone"></i> phone </h3>
+                        <p>(021) 7274 1513</p>
+                        <br>
+                        <p>081222533310</p>
+                    </div>
+                    <div class="holder">
+                        <h3> <i class="fa fa-instagram"></i> Instagram </h3>
+                        <a href="https://www.instagram.com/nuansa_travel/"><p>@nuansa_travel</p></a>
+                        
+                    </div>
+                   
+            
+                </div>
+        </section>
+        
+
+        </section> 
+
+
+          <!-- footer -->
+
+        <section class="footer">
+            <p class="text">Design & Developed By Daffa</p>
+            <ul>
+                <p class="text">Follow us on: </p>
+                <li><a href="#"><img src="image/facebook.png"></a></li>
+                <li><a href="https://www.instagram.com/nuansa_travel/"><img src="image/igblack.png"></a></li>
+                
+            </ul>
+        </section>
+
+</div>
+
+    <script type="text/javascript" src="sal.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+       
+    
+</body>
+</html>
